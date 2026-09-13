@@ -1,0 +1,246 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx86/x86/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35722 for x86
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.50.35722.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/catboy.mp3/Desktop/airsense/v1.5/Libs/PolyHook/build/CMakeFiles/4.0.1/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1281 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\Users\\catboy.mp3\\Desktop\\airsense\\v1.5\\Libs\\PolyHook\\build\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx86/x86/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35722 for x86
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.50.35722.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/catboy.mp3/Desktop/airsense/v1.5/Libs/PolyHook/build/CMakeFiles/4.0.1/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1281 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\Users\\catboy.mp3\\Desktop\\airsense\\v1.5\\Libs\\PolyHook\\build\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/catboy.mp3/Desktop/airsense/v1.5/Libs/PolyHook/build/CMakeFiles/CMakeScratch/TryCompile-u1ng0r"
+      binary: "C:/Users/catboy.mp3/Desktop/airsense/v1.5/Libs/PolyHook/build/CMakeFiles/CMakeScratch/TryCompile-u1ng0r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/catboy.mp3/Desktop/airsense/v1.5/Libs/PolyHook/build/CMakeFiles/CMakeScratch/TryCompile-u1ng0r'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_1d2c6\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX86\\x86\\nmake.exe"  -f CMakeFiles\\cmTC_1d2c6.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_1d2c6.dir\\build
+        Building C object CMakeFiles/cmTC_1d2c6.dir/CMakeCCompilerABI.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_1d2c6.dir\\CMakeCCompilerABI.c.obj.d --working-dir=C:\\Users\\catboy.mp3\\Desktop\\airsense\\v1.5\\Libs\\PolyHook\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1ng0r --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx86\\x86\\cl.exe @C:\\Users\\catboy.mp3\\AppData\\Local\\Temp\\nmAED1.tmp
+        CMakeCCompilerABI.c
+        Linking C executable cmTC_1d2c6.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_1d2c6.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x86\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x86\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_1d2c6.dir\\objects1.rsp @C:\\Users\\catboy.mp3\\AppData\\Local\\Temp\\nmB039.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_1d2c6.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_1d2c6.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_1d2c6.dir/manifest.res CMakeFiles\\cmTC_1d2c6.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_1d2c6.dir\\objects1.rsp /out:cmTC_1d2c6.exe /implib:cmTC_1d2c6.lib /pdb:C:\\Users\\catboy.mp3\\Desktop\\airsense\\v1.5\\Libs\\PolyHook\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1ng0r\\cmTC_1d2c6.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_1d2c6.dir/intermediate.manifest CMakeFiles\\cmTC_1d2c6.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x86\\mt.exe /nologo /manifest CMakeFiles\\cmTC_1d2c6.dir/intermediate.manifest /out:CMakeFiles\\cmTC_1d2c6.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_1d2c6.dir/manifest.res CMakeFiles\\cmTC_1d2c6.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_1d2c6.dir\\objects1.rsp /out:cmTC_1d2c6.exe /implib:cmTC_1d2c6.lib /pdb:C:\\Users\\catboy.mp3\\Desktop\\airsense\\v1.5\\Libs\\PolyHook\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1ng0r\\cmTC_1d2c6.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_1d2c6.dir/intermediate.manifest CMakeFiles\\cmTC_1d2c6.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/PROGRA~1/MICROS~2/18/COMMUN~1/VC/Tools/MSVC/1450~1.357/bin/Hostx86/x86/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:264 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/PROGRA~1/MICROS~2/18/COMMUN~1/VC/Tools/MSVC/1450~1.357/bin/Hostx86/x86/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35722.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/catboy.mp3/Desktop/airsense/v1.5/Libs/PolyHook/build/CMakeFiles/CMakeScratch/TryCompile-z7722h"
+      binary: "C:/Users/catboy.mp3/Desktop/airsense/v1.5/Libs/PolyHook/build/CMakeFiles/CMakeScratch/TryCompile-z7722h"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/catboy.mp3/Desktop/airsense/v1.5/Libs/PolyHook/build/CMakeFiles/CMakeScratch/TryCompile-z7722h'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_ca40a\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX86\\x86\\nmake.exe"  -f CMakeFiles\\cmTC_ca40a.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_ca40a.dir\\build
+        Building CXX object CMakeFiles/cmTC_ca40a.dir/CMakeCXXCompilerABI.cpp.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_ca40a.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir=C:\\Users\\catboy.mp3\\Desktop\\airsense\\v1.5\\Libs\\PolyHook\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z7722h --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx86\\x86\\cl.exe @C:\\Users\\catboy.mp3\\AppData\\Local\\Temp\\nmB326.tmp
+        CMakeCXXCompilerABI.cpp
+        Linking CXX executable cmTC_ca40a.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_ca40a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x86\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x86\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_ca40a.dir\\objects1.rsp @C:\\Users\\catboy.mp3\\AppData\\Local\\Temp\\nmB385.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_ca40a.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_ca40a.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_ca40a.dir/manifest.res CMakeFiles\\cmTC_ca40a.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_ca40a.dir\\objects1.rsp /out:cmTC_ca40a.exe /implib:cmTC_ca40a.lib /pdb:C:\\Users\\catboy.mp3\\Desktop\\airsense\\v1.5\\Libs\\PolyHook\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z7722h\\cmTC_ca40a.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_ca40a.dir/intermediate.manifest CMakeFiles\\cmTC_ca40a.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x86\\mt.exe /nologo /manifest CMakeFiles\\cmTC_ca40a.dir/intermediate.manifest /out:CMakeFiles\\cmTC_ca40a.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_ca40a.dir/manifest.res CMakeFiles\\cmTC_ca40a.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_ca40a.dir\\objects1.rsp /out:cmTC_ca40a.exe /implib:cmTC_ca40a.lib /pdb:C:\\Users\\catboy.mp3\\Desktop\\airsense\\v1.5\\Libs\\PolyHook\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z7722h\\cmTC_ca40a.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_ca40a.dir/intermediate.manifest CMakeFiles\\cmTC_ca40a.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/PROGRA~1/MICROS~2/18/COMMUN~1/VC/Tools/MSVC/1450~1.357/bin/Hostx86/x86/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:264 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/PROGRA~1/MICROS~2/18/COMMUN~1/VC/Tools/MSVC/1450~1.357/bin/Hostx86/x86/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35722.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
